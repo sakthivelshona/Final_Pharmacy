@@ -1,0 +1,205 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top{
+  text-align: center;
+  padding: 12px;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+  background-color: rgb(238, 241, 241);
+  
+}
+
+#logo{
+  font-size: 27px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  margin: 10px;
+}
+
+#logo:hover{
+  transition: all ease-in-out 0.1s;
+  font-size: 30px;
+
+}
+.header{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  font-size: 20px;
+  position: relative;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  border-bottom: 2px solid black;
+
+}
+
+ul,li{
+  display: inline;
+  margin: 30px;
+}
+
+
+.hcomp a{
+  text-decoration: none;
+  color: black;  
+}
+a:hover{
+  color: rgb(255, 132, 0);
+  border-bottom: 3px solid black;
+  margin-bottom: 12px;
+  transition: 0.2s;
+}
+
+.home-page{
+  padding: 65px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.frontimg img{
+  width: 100%;
+  height: 300px;
+}
+button{
+  height: 40px;
+  width: 120px;
+  background-color: rgb(255, 132, 0);
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  margin-top: 17px;
+
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+}
+.cardsection{
+  padding: 35px;
+}
+
+.card{
+  display: flex;  
+}
+
+.card img{
+  height: 40px;
+  width: 45px;
+  margin-right: 8px;
+}
+
+.card p{
+  font-size: 10px;
+}
+.allcards{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nextsec{
+  padding: 90px;
+}
+.twoimgs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstone,.secondone{
+  position: relative;
+
+}
+
+.twoimgs img{
+  width: 580px;
+  height: 230px;
+  border-radius: 10px;
+  position: relative;
+  z-index: -1;
+  top: 0px;
+}
+.img1, .img2{
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+
+
+ h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  text-decoration: underline;  
+  margin-bottom: 30px;
+}
+
+.wholesec{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.itm{
+  position: relative;
+  text-align: center;
+  
+  &:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+  }
+
+}
+.itm p{
+  padding: 15px;
+
+}
+
+.allitems img{
+  width: 300px;
+  height: 250px;
+
+}
+
+span{
+  color: black;
+}
+
+.wholecat{
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+.shopbycat{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+
+.catitm img{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+
+}
