@@ -40,7 +40,7 @@ function Home() {
                   <button>Shop Now</button>
           </div>
           <div className='frontimg'>
-                <img src='./public/banner.png' />
+                <img src='banner.png' />
           </div>
     </div>
 
@@ -48,7 +48,7 @@ function Home() {
     <div className="cardsection">
       <div className="allcards">
             <div className="card">
-              <img src="./public/hand.png" alt="" />
+              <img src="hand.png" alt="" />
                 <div className="ctitle">
                 <h5>Secure Payment</h5>
                 <p>ALL CARDS ACCEPTED</p>
@@ -56,7 +56,7 @@ function Home() {
             </div>
 
             <div className="card">
-              <img src="./public/support.png" alt="" />
+              <img src="support.png" alt="" />
                 <div className="ctitle">
                 <h5>Online Support</h5>
                 <p>TECHNICAL 24/7</p>
@@ -64,7 +64,7 @@ function Home() {
             </div>
 
             <div className="card">
-              <img src="./public/truck.png" alt="" />
+              <img src="truck.png" alt="" />
                 <div className="ctitle">
                 <h5>Free Shipping</h5>
                 <p>ON ALL ORDERS</p>
@@ -72,7 +72,7 @@ function Home() {
             </div>
 
             <div className="card">
-              <img src="./public/discount.png" alt="" />
+              <img src="discount.png" alt="" />
                 <div className="ctitle">
                 <h5>Discounts Online</h5>
                 <p>WEEKEND SALES</p>
@@ -86,7 +86,7 @@ function Home() {
       <div className="twoimgs">
 
         <div className="firstone">
-        <img src="./public/2img.png" alt="" />
+        <img src="2img.png" alt="" />
         <div className="img1">
         <p>Your Daily-life protection</p>
         <h3>Protein Supplement</h3>
@@ -95,7 +95,7 @@ function Home() {
         </div>
 
         <div className="secondone">
-        <img src="./public/1img.png" alt="" />
+        <img src="1img.png" alt="" />
         <div className="img2">
         <p>Get upto 25% discount</p>
         <h3>Immunity Booster</h3>
