@@ -1,5 +1,7 @@
 import React from 'react'
 import Newarrival from './Newarrival'
+import Shop from './Shop'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -22,8 +24,10 @@ function Home() {
 
       <div className="hcomp">
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Shop</a></li>
+
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/shop">Shop</Link></li>
+
         <li><a href="">Track Order</a></li>
         <li><a href="">Wishlist</a></li>
         <li><a href="">Account</a></li>
@@ -118,6 +122,11 @@ function Home() {
     })
 }
 </div>
+
+
+
+
+
 
 </>
     )

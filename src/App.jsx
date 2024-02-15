@@ -1,8 +1,23 @@
 import React from 'react'
 import Home from './components/Home'
 import Shop from './components/Shop'
+import { RouterProvider,createBrowserRouter } from 'react-router-dom'
+import Layout from './components/Layout' 
 
 export default function App() {
+
+
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element:<Layout/>,
+      children:[
+        {path:'/shop',element:<Shop/>},
+      ]
+    }
+  ])
+
+
 
   return (
     
@@ -10,8 +25,7 @@ export default function App() {
 
     <>
 
-    <Home/>
-    <Shop/>
+<RouterProvider router={router}/>
 
 
 {/* 
