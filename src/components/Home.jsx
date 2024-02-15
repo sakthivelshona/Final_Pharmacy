@@ -123,7 +123,9 @@ function Home() {
 }
 </div>
 
-
+<div>
+  <Shop/>
+</div>
 
 
 
